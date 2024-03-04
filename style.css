@@ -677,7 +677,7 @@ body {
         font-size:1.7rem;
         font-weight: 700;
         padding-top: 10px;
-        padding-left: 8px;
+        padding-left: 2.3rem;
         color: white;
     }
 
@@ -746,6 +746,73 @@ body {
         background-color: #5e5c6b7e;
         transition: ease 0.5s;
     }
+    .hero-container .playlist-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 2rem;
+        /* border: 1px solid red; */
+    }
 
+    .hero-container .playlist-container .playlist-main {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0px 25px;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-head {
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items {
+        display: flex ;
+        /* border: 1px solid white; */
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 16.2rem;
+        width: 12rem;
+        border-radius: 8px;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a:hover {
+        background-color: #9f9f9f18;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs .playlist-img img {
+        height: 160px;
+        width: 160px;
+        border-radius: 8px;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs .playlist-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs .playlist-text .playlist-header {
+        color: white;
+        font-weight: 700;
+        padding-top: 8px;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs .playlist-text .playlist-text {
+        color: #9f9f9f;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 1.2rem;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a:hover button {
+        background-color: red;
+    }
 
 /* Hero Container End */
