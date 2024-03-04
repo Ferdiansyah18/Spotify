@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
+    text-decoration: none;
     /* color: white; */
 }
 
@@ -503,7 +504,6 @@ body {
     fill: #9f9f9f;
 }
 
-
 .navbar-container .home-btn:hover .tooltip-home-text {
     visibility: visible;
     opacity: 1;
@@ -811,8 +811,37 @@ body {
         line-height: 1.2rem;
     }
 
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a button {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 45px;
+        background-color: #1ed760;
+        border-radius: 50%;
+        border: none;
+        margin-left: 95px;
+        margin-top: 50px;
+        box-shadow: 0px 5px 5px black;
+        opacity: 0;
+        transition: ease 0.2s;
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a button:hover {
+        background-color: #4ce983;
+        transform: scale(1.1);
+    }
+
+    .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a button .play-icon-main {
+        fill: black;
+        height: 20px;
+        width: 20px;
+    }
+
     .hero-container .playlist-container .playlist-main .playlist-items .playlist-songs a:hover button {
-        background-color: red;
+        margin-bottom: 30px;
+        opacity: 1;
     }
 
 /* Hero Container End */
